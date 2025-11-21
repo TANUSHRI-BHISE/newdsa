@@ -1,12 +1,15 @@
  //-----------------//---------------//
  //finding min and max in array
+
 int maxVal = arr[0];
 int minVal = arr[0];
 
-for(int x : arr){
+for (int i = 0; i < arr.size(); i++) {
+    int x = arr[i];
     maxVal = max(maxVal, x);
     minVal = min(minVal, x);
 }
+
 
 
 
